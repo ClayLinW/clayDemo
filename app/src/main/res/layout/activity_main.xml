@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="PopupWindow"
+        android:onClick="popupWindow"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="GlideScrollView"
+        android:onClick="glideScrollView"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="LCSelectVanish"
+        android:onClick="lCSelectVanish"
+        android:textColor="#ffffff"
+        android:textSize="15sp"/>
+
+</LinearLayout>

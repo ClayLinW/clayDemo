@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent">
+
+        <com.beauty.claydemo.CustomGlideScrollView
+            android:id="@+id/sv_glideVanish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="Text----1"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="Text----2"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="Text----3"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="Text----4"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="Text----5"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="Text----6"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+        </com.beauty.claydemo.CustomGlideScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

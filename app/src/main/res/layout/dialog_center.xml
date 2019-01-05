@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/engagement_notify_corners_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_startCamera"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="拍照"
+            android:textSize="14dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="#e0e0e0"/>
+
+        <TextView
+            android:id="@+id/tv_startMedio"
+            android:layout_width="226dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="视频"
+            android:textColor="#000000"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
